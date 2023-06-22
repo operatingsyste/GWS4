@@ -12,7 +12,7 @@ function checkForUpdates(){
     document.getElementById('h1').innerHTML = ' ';
     var config = confirm('Update is available update name GWS 5');
     if (config){
-      document.getElementById("upd--1").innerHTML = '<a href="https://operatingsyste.github.io/GWS5SETUP/upd.html" id="updCl"> Validating update packages </a>';
+      document.getElementById("h1").innerHTML = '<a href="https://operatingsyste.github.io/GWS5SETUP/upd.html" id="updCl"> Validating update packages </a>';
       document.getElementById("updCl").click();
     }
     else {
