@@ -15,7 +15,7 @@ function checkForUpdates(){
 }
 
 function bios(){
-  window.open('https://biosgws.operatingsyste.repl.co'); 
+  window.open('https://operatingsyste.github.io/BIOSGWS/'); 
 }
 
 function Sboot(){
